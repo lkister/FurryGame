@@ -7,6 +7,7 @@ var Game = function () {
     this.coin = new Coin();
     this.score = 0;
     var self = this;
+    var furrySpeed = 250;
 
     this.index = function(x, y) {
         return x + (y* 10);
@@ -85,7 +86,7 @@ var Game = function () {
     this.startGame = function() {
         this.idSetInterval = setInterval(function() {
             self.moveFurry();
-        }, 250);;
+        }, furrySpeed);;
     };
 };
 module.exports = Game;
