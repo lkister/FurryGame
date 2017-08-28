@@ -1,5 +1,5 @@
 # FurryGame
-## [Click here for live preview](https://lkister.github.io/FurryGame/index.html).
+## [Click here for live preview](https://lkister.github.io/game_FurryGame/index.html).
 
 Simple JavaScript game.  
 
